@@ -1,0 +1,30 @@
+.color-picker{
+    display: flex;
+    gap: 40px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.color-circle{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 5px solid #2D3136;
+}
+
+.blue{background-color: #59B2FF;}
+.purple{background-color: #6A59FF;}
+.pink{background-color: #FF598B;}
+.red{background-color: #FF5959;}
+.orange{background-color: #FF8B59;}
+.yellow{background-color: #FFCD59;}
+.green{background-color: #59FF91;}
+
+input[type="radio"]:checked + .color-circle{
+    outline: 2px solid #59B2FF;
+}
+

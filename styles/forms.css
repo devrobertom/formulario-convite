@@ -25,6 +25,6 @@ legend{
     color: var(--text-body);
 }
 
-fieldset + fieldset{
+fieldset{
     margin-bottom: 48px;
 }
