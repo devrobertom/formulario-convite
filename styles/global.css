@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--shape-backgroud);
+}
+
 :root{
     --brand-light: #59B2FF;
     --brand-mid: #3487CF;
@@ -20,7 +24,7 @@
     --shape-button: #2D3136;
     --shape-hover: #383D42;
     
-    --text-bd: #C8CDD0;
+    --text-body: #C8CDD0;
     --text-heading: #F9F9F9;
 
     --font-sans: "Open Sans", sans-serif;

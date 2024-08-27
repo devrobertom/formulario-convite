@@ -20,6 +20,74 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="app">
+        <aside>
+            <img src="assets/icons/Logo.svg" alt="">
+            <h1>Festivite</h1>
+            <p>Crie um convite digital para o seu evento</p>  
+        </aside>
 
+        <main>
+            <h1>Crie seu convite</h1>
+
+            <form>
+                <fieldset>
+                    <div class="img">
+                        <img src="assets/icons/calendar.svg" alt="">
+                        <legend>Sobre o evento</legend>
+                    </div>
+                    
+                
+                    <div class="input-wrapper">
+                        <label for="name-event">Título</label>
+                        <input 
+                        type="text"
+                        id="name-event"
+                        name="name-event"
+                        placeholder="Nome do evento">
+                    </div>
+
+                    <div class="flex">
+                        <div class="date-wrapper">
+                            <label for="start">Início</label>
+                            <input 
+                            type="text"
+                            id="start"
+                            name="start"
+                            placeholder="dd/mm/aaaa hh:mm">
+                        </div>
+                        <div class="date-wrapper">
+                            <label for="start">Fim</label>
+                            <input 
+                            type="text"
+                            id="start"
+                            name="start"
+                            placeholder="dd/mm/aaaa hh:mm">
+                        </div>    
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="local">Local</label>
+                        <input 
+                        type="text"
+                        id="local"
+                        name="local"
+                        placeholder="Endereço">
+                    </div>
+
+                    <div class="textarea-wrapper">
+                        <label for="description">Descrição</label>
+                        <textarea 
+                        name="description" 
+                        id="description"
+                        cols="40" rows="6"
+                        placeholder="Escreva sobre os detalhes do evento">
+                        </textarea>
+                    </div>
+                </fieldset>
+                
+            </form>
+        </main>
+    </div>
 </body>
 </html>

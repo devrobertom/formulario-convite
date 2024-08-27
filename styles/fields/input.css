@@ -1,0 +1,27 @@
+input, textarea{
+    appearance: none;
+    background-color: var(--input-base);
+    width: 560px;
+    border-radius: 5px;
+    border: 1px solid var(--input-stroke);
+    padding: 10px;
+    font: var(--body-sm);
+}
+
+label{
+    font: var(--body-sm);
+    color: var(--text-body);
+    
+    display: block;
+    margin-bottom: 12px;    
+}
+
+.flex{
+    display: flex;
+    gap: 16px;
+    
+}
+
+.flex input{
+    width: 273px;
+}

@@ -1,0 +1,30 @@
+@import url(fields/site.css);
+
+form{
+    margin-top: 40px;
+    margin-left: 130px;       
+}
+
+fieldset{
+    border: none;
+    display: grid;
+    gap: 16px;
+}
+
+fieldset .img{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    
+}
+
+legend{
+    font-family: var(--font-ballo);
+    font-weight: bold;
+    height: 18px;
+    color: var(--text-body);
+}
+
+fieldset + fieldset{
+    margin-bottom: 48px;
+}
